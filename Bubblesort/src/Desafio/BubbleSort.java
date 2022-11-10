@@ -6,10 +6,10 @@ public class BubbleSort {
 
 	public static void main(String[] args) {
 		Random gerador = new Random();
-		int[] lista = new int [10];
+		int[] lista = new int [100];
 		
-		for(int i = 0; i < 10; i++) {
-			lista[i] = gerador.nextInt(50);	
+		for(int i = 0; i < 100; i++) {
+			lista[i] = gerador.nextInt(300);	
 		}
 		
 		int auxiliar; 
